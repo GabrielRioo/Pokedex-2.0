@@ -15,6 +15,7 @@ const config: Config = {
       },
       boxShadow: {
         drop: '0px -10px 4px 0px rgba(0, 0, 0, 0.20) inset, 0px 5px 10px 0px rgba(0, 0, 0, 0.50)',
+        drop_circle: '-4px -16px 5.8px 0px rgba(0, 0, 0, 0.25) inset, 4px 4px 8.8px 0px rgba(255, 255, 255, 0.50) inset',
         inner: '0px 5px 4px 0px rgba(0, 0, 0, 0.80) inset',
         button:'0px 6px 0px 0px #000',
         button_rotate: '6px 0px 0px 0px #000'
