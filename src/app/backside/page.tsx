@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 export default function Backside() {
     return (
-        <div className="flex justify-center items-center h-screen flex-col">
+        <div className="flex justify-center items-center flex-col md:self-end">
             <div className="bg-red-600 w-96 rounded-xl shadow-drop">
                 <div className="flex justify-center mt-10">
-                    <div className="bg-slate-500 w-11/12 h-96 rounded-lg m-auto shadow-inner"></div>
+                    <div className="bg-slate-500 w-11/12 h-96 rounded-lg m-auto shadow-inner md:h-80"></div>
                 </div>
 
                 <div className="flex flex-row gap-3 justify-center items-center mt-5 mb-8">

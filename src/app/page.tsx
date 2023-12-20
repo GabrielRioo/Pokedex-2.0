@@ -35,17 +35,17 @@ export default function Home() {
   const isMobile = screenWidth <= mobileWidth;
 
   return (
-    <div>
+    <div className='h-screen flex justify-center items-center'>
       {isMobile ? (
         // Se for mobile, mostra apenas Frontside
         <>
           {side === "" ? (
-            <div>
+            <div className='flex items-center justify-center h-screen'>
               <Frontside />
               <button onClick={() => setSide("backside")} className="bg-red-600 text-white rounded-full pt-2 pb-2 pr-4 pl-4 absolute mr-3 mb-3 right-0 bottom-0">Turn Around</button>
             </div>
           ) : (
-            <div>
+            <div className='flex items-center justify-center h-screen'>
               <Backside />
               <button onClick={() => setSide("")} className="bg-red-600 text-white rounded-full pt-2 pb-2 pr-4 pl-4 absolute ml-3 mb-3 left-0 bottom-0">Turn Around</button>
             </div>
@@ -53,7 +53,7 @@ export default function Home() {
         </>
       ) : (
         // Se for desktop, mostra ambos lado a lado
-        <div className='md:flex md:flex-row md:justify-center'>
+        <div className='md:flex md:flex-row'>
           <Frontside />
           <Backside />
         </div>

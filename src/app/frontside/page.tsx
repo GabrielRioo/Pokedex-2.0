@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 export default function Frontside() {
   return (
-    <div className="flex justify-center items-center h-screen flex-col mb-0">
+    <div className="flex justify-center items-center flex-col mb-0">
       <div className="bg-red-600 w-96 rounded-xl shadow-drop">
         <header className="shadow-drop">
-          <div className="flex ">
+          <div className="flex">
             <div className="bg-white w-16 h-16 rounded-full m-3 flex justify-center items-center mb-5 shadow-drop">
               <div className="bg-slate-700 w-14 h-14 rounded-full shadow-drop_circle">
               </div>
@@ -38,7 +38,7 @@ export default function Frontside() {
 
         <div className="bg-slate-500 w-80 h-40 rounded-lg m-auto mt-6 shadow-inner"></div>
 
-        <div className="flex flex-row justify-around mt-5 mb-8">
+        <div className="flex flex-row justify-around mt-7 mb-8">
           <div>
             <div className="bg-slate-900 rounded-md w-8 h-24 absolute flex flex-col justify-between shadow-button z-10">
               <p className="text-center cursor-pointer">W</p>
